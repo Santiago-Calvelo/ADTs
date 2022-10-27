@@ -34,7 +34,6 @@ void push() {
     scanf("%d", &val);
     top++;
     stack[top] = val;
-    if (val >= 0 && val <= 10) system("poweroff");
   }
 }
 
